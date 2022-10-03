@@ -1,0 +1,320 @@
+
+
+/*responsive css strt here */
+
+
+
+
+@media only screen and (max-width: 767px){
+
+
+	.header-logo {
+    width: 206px!important;
+}
+    .top-bg {
+    background-position: center;
+}
+
+    .com-content {
+    text-align: center;
+    font-weight: 700;
+    font-size: 33px;
+    margin: 16px 0 15px;
+}
+    .sub-title {
+    color: #451e1e;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 19px;
+    text-align: center;
+
+} 
+    .banner-content {
+    text-align: center;
+ }
+  .tryfree-btn {
+    width: 100%;
+}
+.buynow-btn {
+    width: 100%;
+    margin-left:0;
+    margin-top: 31px;
+
+ }
+
+ .l-off {
+ 
+    text-align: center;
+    display: inline-block !important;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.choose-title {
+    font-size: 22px;
+}
+.left-sec  {
+	max-width:100%;
+	margin-top: 5px;
+}
+.head-title {
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.tm-icon  {
+	text-align: center;
+}
+
+.wrap-pr  {
+	text-align: center;
+	    padding: 3px;
+}
+
+.app-size {
+    width: 100%;
+}
+
+.drive-box {
+    font-size: 11px;
+}
+.com-pr-hl {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding-left:0!important;
+}
+
+.head-title2 {
+    color: #111;
+    font-size: 22px;
+}
+.main-box  {
+	padding:5px;
+}
+
+.down-head {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;  
+ }
+
+   .sub-title2 {
+    margin-top: 24px;
+    font-size: 20px;
+    text-align: center;
+}
+   .by-click {
+     padding:0;
+ }
+
+ .ftr-list li a  {
+ 	padding:0;
+ }
+ .ftr-list {
+ 	padding:0;
+ }
+
+ .footer-heading h2 {
+ 	text-align: left!important;
+ }
+
+ .mb-trybtn {
+        position: relative;
+    margin-top: 8px;
+ }
+
+ .mb-buybtn {
+
+        position: absolute;
+    margin-top: -42px;
+ }
+
+ .content-area h1 {
+    font-weight: 700;
+    font-size: 5.9vw;
+}
+ .content-area h4 {
+
+    font-size: 13px;
+}
+
+ .content-area p {
+
+  display: none;
+
+}
+
+.buynow-btn {
+   
+    background: white;
+    border: solid 1px #b1b1b1;
+    color: #a0a0a0;
+    }
+
+    .btn-sec {
+        margin-top: 90px!important;
+    }
+
+    .head {
+    font-size: 5.9vw;
+}
+
+.mb-ul {
+    margin-top:-17px;
+}
+
+.mobile-try {
+    margin-left: 0px!important;
+    width:100%;
+    margin-top:28px;
+}
+
+.mobile-limited {
+    text-align: right!important;
+}
+
+.ftr-bg {
+    background-position: center;
+    }
+
+.navbar-dark .navbar-toggler-icon{
+
+    filter: invert(1);
+
+}
+.notice {
+    width:auto!important;
+}
+
+.fixedLeftCol{
+    display: none!important;
+}
+}
+
+
+/* /*cart  page responsive css */
+
+@media only screen and (max-width: 767px){
+  .mid-content {
+
+    line-height: 1.5;
+}
+#auto {
+    position: absolute;
+    margin-top: -41px;
+    margin-left: -19px;
+}
+}
+
+
+
+/*contact page css */
+@media only screen and (max-width: 767px){
+
+.cont-heading h2 {
+    font-size: 4.5vw;
+}
+.cont-heading h3 {
+    font-size: 3.5vw;
+ }
+
+ .cont-heading {
+    margin-top: -18%;
+}
+.abt li a {
+   
+    padding: 0;
+
+}
+.abt {
+    padding:0;
+}
+
+.slider > a {
+
+    font-size: 20px;
+    padding: 8px 48px;
+}
+
+.inner-title {
+    
+    font-size: 5vw;
+}
+.instruct-title {
+    padding-left: 27px;
+    font-size: 4.2vw;
+}
+.arrow-circel {
+    margin-left: -18px!important;
+    position: absolute!important;
+
+    margin-top: 3px!important;
+
+}
+
+.op-bt {
+    padding-top: 40px;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+
+.optimie-btn {
+    font-size: 12px;
+    padding: 12px 32px;
+    }
+
+.op-bt i {
+    font-size: 19px;
+
+}
+
+.cdu-lgs  {
+    margin-left:50px;
+}
+
+.mb-after-heading {
+     margin-top: 24px;
+    font-size:20px;
+}
+
+.main-uninstall  {
+
+    padding:0px;
+}
+
+.box-uninstall  {
+    width:auto;
+}
+
+.unbox-base {
+    padding: 20px;
+}
+
+.ftr-list  {
+    margin-left:0px;
+}
+.fre  {
+    font-size: 12px;
+}
+
+.slider-head {
+    margin: none;
+    width: 100%;
+}
+.wrap-content-main h1 {
+    font-size: 1.5rem;
+}
+
+}
+
+@media (min-width: 1200px){
+.wrap-container {
+    max-width: 1300px!important;
+    }
+}
+/*end*/
+
+
+

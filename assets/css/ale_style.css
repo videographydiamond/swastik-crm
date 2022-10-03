@@ -1,0 +1,1272 @@
+
+
+
+.radius {
+	 border-radius: 30px;
+}
+
+.homelist_bg {
+	background-color:#e2e2e2;
+}
+
+.list-home  {
+	margin-top:10px;
+}
+
+
+.aleHeading h5 {
+	font-weight: 500;
+    font-size: 16px;
+}
+.sort {
+	position: absolute;
+}
+
+.listingBox {
+	width: 239px;
+    margin-left: 17%;
+    font-size: 14px;
+}
+
+.ale_faci i{
+	font-size: 20px;
+	color: #767676!important;
+}
+
+.ale_pop {
+   
+    font-size: 13px;
+    color:#585858;
+
+}
+
+.mainDiv  p {
+	font-size: 12px;
+}
+
+.propertyDetails {
+	color: unset;
+}
+
+
+.propertyDetails:hover {
+	color: unset;
+}
+
+.AleBoxes {
+	padding: 12px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+}
+
+
+.awsomeAle i  { 
+	
+	color:#dd0000; 
+}
+
+.aleBreadcrumb {
+
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-wrap: wrap!important;
+    flex-wrap: wrap!important;
+    padding: .75rem 0.4rem!important;
+    list-style: none!important;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.diectionBtn:hover  {
+    color: #fff;
+	margin: 10px;
+	background-color: #044f53;
+	transition: 0.3s;
+	border:1px solid #044f53;
+
+}
+
+.diectionBtn  {
+    color: #044f53;
+	margin: 10px;
+	background-color: transparent;
+	transition: 0.3s;
+	border:1px solid #044f53;
+
+}
+
+
+.alePrice h5  {
+    font-weight: 400;
+
+}
+
+.alePrice  {
+    margin-right: 16px;
+}
+
+.L-panel {
+  position: absolute;
+
+}
+
+.MyDivSection  {
+	height: 158px;
+	padding: 10px;
+	border: 1px solid #d5d5d5;  	 	
+
+}
+
+.ale_pop p {
+	font-size: 13px;
+}
+
+.owl-dots  {
+	display: none; 	
+}
+
+.owl-nav  {
+	margin-top:0px!important;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+
+    padding: 0 13px 4px!important;
+
+}
+
+.myTab li {
+	width: 25%;
+}
+
+
+
+.myTab  {
+	text-align: center;
+}
+
+
+
+
+/********icon color modified***********/
+.myTab .icon-star {
+	color:#999;
+	font-size:38px;
+}
+
+.myTab .icon-star:hover {
+	color:#044f53;
+	transition: 0.3s;
+}
+
+
+.myTab .icon-village {
+	color:#999;
+	font-size:44px;
+}
+
+.myTab .icon-village:hover {
+	color:#044f53;
+	transition: 0.3s;
+}
+
+.myTab .icon-trend {
+	color:#999;
+	font-size:38px;
+}
+
+.myTab .icon-trend:hover {
+	color:#044f53;
+	transition: 0.3s;
+}
+
+
+.myTab .icon-calculator {
+	color:#999;
+	font-size:38px;
+}
+
+.myTab .icon-calculator:hover {
+	color:#044f53;
+	transition: 0.3s;
+}
+
+.myTab .icon-low-prices {
+	color:#999;
+	font-size:38px;
+}
+
+.myTab .icon-low-prices:hover {
+	color:#044f53;
+	transition: 0.3s;
+}
+
+
+.myactive span {
+    color: #044f53!important;
+    cursor: pointer;
+}
+
+.myactive.AlePoptab a{
+    color: #044f53!important;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    transition: 0.3s;
+}
+
+.MyDivdrop {
+
+    padding: 10px;
+    border: 1px solid #d5d5d5;
+}
+
+.myTab_content p {
+	color: #000;
+}
+
+
+.aleStatics h6 {
+	font-weight: 700;
+}
+
+
+.collapsible {
+    border: 1px solid #c7c7c7;
+    font-weight: 700;
+    color: #044f53;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+
+
+.collapsible:after {
+  content: '\002B';
+  color: #044f53;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapseactive:after {
+  content: "\2212";
+}
+
+.content {
+	border: 1px solid #ececec;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d3d3d3;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 4px 16px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.AleRquired {
+  border: 1px solid #d5d5d5!important;
+  border-radius: 30px;
+}
+
+.ActiveAleRquired:hover  {
+	background-color:#00a1ffe0!important;
+}
+
+
+.unactiveRquired:hover   {
+   background-color:#00a1ffe0!important;
+
+
+}
+
+
+/*table css*/
+
+
+table.paleBlueRows {
+  border: 1px solid #FFFFFF;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.paleBlueRows td, table.paleBlueRows th {
+/*  border: 1px solid #FFFFFF;
+*/  padding: 3px 3px;
+}
+table.paleBlueRows tbody td {
+  font-size: 13px;
+}
+/*table.paleBlueRows tr:nth-child(even) {
+  background: #D0E4F5;
+}*/
+table.paleBlueRows thead {
+  border-bottom: 5px solid #FFFFFF;
+  color: #000;
+}
+table.paleBlueRows thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+
+table.paleBlueRows tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  background: #D0E4F5;
+  border-top: 3px solid #444444;
+}
+table.paleBlueRows tfoot td {
+  font-size: 14px;
+}
+
+.myFistSpace  {
+	width: 30%;
+}
+
+th {
+	color: #000!important;
+}
+
+.tdControl  {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    background-color: #e9f5ff;
+    padding: 6px 0px;
+    border: 1px solid #cacacb;
+    border-radius: 0;
+    font-size: 12px;
+}
+
+.tdControl:focus  {
+    color: #495057;
+    background-color: #d0e4f5;
+    border-color: #64afff!important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 117 237 / 0%)!important;
+
+}
+
+.AleInput input::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #000!important;
+} 
+
+.AleInput input:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #000!important;
+} 
+  
+.AleInput input::-ms-input-placeholder { /* Microsoft Edge */ 
+	 color: #000!important;
+}
+
+
+.wp_Input input::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #23a1c0!important;
+} 
+
+.wp_Input input:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #23a1c0!important; 
+} 
+  
+.wp_Input input::-ms-input-placeholder { /* Microsoft Edge */ 
+	 color: #23a1c0!important; 
+}
+
+.MyLabel{
+	font-size: 13px;
+    font-weight: 500;
+    color: #30b3d3!important;
+    margin-bottom: 0;
+
+}
+
+.tdControl2 {
+
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    padding: 6px 0px;
+    border-radius: 0;
+    font-size: 12px;
+    border: none;
+}
+
+
+.LeftInput  {
+	color: #000;
+	padding:10px;
+
+    font-size: 13px;
+
+}
+
+.Formfont {
+
+    font-size: 13px;
+
+}
+.minus i {
+	    text-align: center;
+	font-size: 10px;
+    color: #fff;
+    width: 20px;
+    background: #56cbec;
+    height: 20px;
+    border-radius: 30px;
+    line-height: 2;
+}
+
+.AleMortage  {
+    background-color: #e9f5ff;
+    border: 1px solid #cacacb!important;
+    line-height: 2;
+
+}
+
+.eualIco {
+	margin-top: 3px;
+    color: #fff;
+    background: #56cbec;
+    width: 20px;
+    height: 20px;
+    line-height: 1.4;
+    border-radius: 30px;
+}
+
+.myBlue {
+	color:#30b3d3!important
+}
+
+.AleMortage td {
+	font-size:14px!important;
+}
+
+.AleSelectTag  {
+	border: 1px solid #000;
+    font-size: 13px;
+    height: calc(2.25rem + -3px)!important;
+    width: 68%;
+    margin: auto;
+    border-radius: 0;
+    padding:0;
+}
+
+.AleSelectTag:focus  {
+	border-color: #000!important;
+
+}
+
+
+.AleSize {
+	font-size: 35px!important;
+}
+.AleMortage2 {
+	 background-color: #e9f5ff;
+    border: 1px solid #cacacb!important;
+    line-height: 2;
+}
+
+.AleLand  {
+  width: 352px;
+}
+.calculatorsCollapse  {
+	background-color: #fff!important;
+	padding:10px;
+	font-weight: 400;
+    color: #56cbec;
+    border: 1px solid #ffffff;
+    font-size: 16px;
+
+}
+
+.calContent  {
+	border:unset!important;
+}
+.calContent h6 {
+	font-size: 13px;
+	color: #686868;
+}
+
+.wpCalculator  {
+	width: 290px;
+}
+
+.MyGrey {
+	color: #686868!important;
+}
+
+.collapseBorder  {
+
+	border: 1px dotted #c9c9c9;
+ }
+
+.FtSize {
+ 	font-size: 13px;
+ }
+
+ .requireqwerty h5 {
+ 	color: #A3C139;
+ }
+
+ .Pecentqwerty {
+ 	display: block;
+    overflow: hidden;
+    border-bottom: dotted 1px #c0c0c0;
+    height: 16px;
+    margin-bottom: 4px;
+ }
+ 
+ .Downlisting {
+ 	line-height: 0.9;
+ }
+
+ .DollarAle {
+ 	background: #e9f5ff;
+    padding: 6px;
+    border: 1px solid #d9d9d9;
+ }
+
+.ToogleBtn  {
+	border: 1px solid #dfdfdf;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0;
+    font-size:13px;
+    border-left: 3px solid #ffffff;
+
+}
+
+
+.ToogleBtn:hover  {
+    color: #000000;
+    border-left: 3px solid #23a1c0;
+}
+
+.ToogleBtn:focus  {
+	background-color:#23a1c0;
+	color: #ffffff;
+	border:#23a1c0;
+	border-left: 3px solid #23a1c0;
+}
+
+.AleCollped  {
+	background-color:#f2f2f2;
+    padding: 14px;	
+    border-bottom:1px solid #e1e1e1;
+    border-left:1px solid #e1e1e1;
+    border-right:1px solid #e1e1e1;
+}
+
+.ActiveCollapse  {
+    background-color: #03a9f4;
+    line-height: 2.3;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+
+.ActiveCollapse:hover  {
+    border: 1px solid #fff;
+}
+
+.Qzxy {
+	 font-size: 12px!important;
+}
+
+.transitbtn {
+	 margin: 4px;
+    border: 1px solid #acacac;
+    padding: 6px;
+    background: #c5c5c5;
+    width: 46%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.transitbtn2 {
+	margin: 4px;
+    border: 1px solid #acacac;
+    padding: 6px;
+    background: #c5c5c5;
+    width: 46%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.transitbtn a{
+    color: #000;
+}
+
+.transitbtn2 a{
+  
+    color: #000;
+}
+
+
+.transitbtn:hover  {
+    background-color:#23a1c0;
+    border: 1px solid #23a1c0;
+    color: #ffffff;
+}
+
+.transitbtn2:hover {
+    background-color:#23a1c0;
+    color: #ffffff;
+    border: 1px solid #23a1c0;
+
+}
+
+.bg-red {
+	padding: 3px 16px;
+    background: #d50000;
+    border-radius: 11px;
+    color: #ffffff;
+
+}
+
+.bg-green {
+	padding: 3px 16px;
+    background: #00ba42;
+    border-radius: 11px;
+    color: #ffffff;
+
+}
+.AskContol  {
+    text-align: center;
+    background-color: #e9f5ff;
+        padding: 11px 3px;
+    border: 1px solid #cacacb;
+    border-radius: 0;
+    font-size: 12px;
+
+}
+
+.AskContol:focus  {
+    color: #495057;
+    background-color: #d0e4f5;
+    border-color: #64afff!important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 117 237 / 0%)!important;
+}
+
+.Gobtn {
+	padding: 8px 35px;
+    border-radius: 4px;
+    border: 1px solid #45c9ee;
+    background-color: #45c9ee;
+    color: #ffffff;
+}
+
+.Gobtn:hover {
+	padding: 8px 35px;
+    border-radius: 4px;
+    border: 1px solid #45c9ee;
+    background-color: #3dc4ea;
+    color: #ffffff;
+}
+
+
+
+/*table*/
+
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.AleInput  {
+	text-align: center;
+}
+.LeveluL {
+	padding: 7px 10px;
+    background: #ececec;
+}
+/*end*/
+
+.ALeAgnetDetails {
+	margin-left:80px;
+	margin-bottom: 40px;
+}
+
+.AleAgent img {
+	position: absolute;
+}
+
+.bg-white {
+	border: 1px solid #d5d5d5;
+}
+
+.ByMail {
+	margin-top: -72px;
+    float: right;
+}
+
+.EmailBtn {
+	font-size: 12px;
+	color: #fff;
+    padding: 4px 28px;
+    background: #044f53;
+    transition: 0.3s;
+    border: 1px solid #044f53;
+}
+
+.BookingBtn {
+	font-size: 12px;
+	color: #fff;
+    padding: 4px 14px;
+    background: #044f53;
+    transition: 0.3s;
+    border: 1px solid #044f53;
+}
+
+
+.EmailBtn:hover {
+	font-size: 12px;
+	color:  #044f53;
+    padding: 4px 28px;
+    background: transparent;
+    transition: 0.3s;
+    border: 1px solid #044f53;
+}
+
+.BookingBtn:hover {
+	font-size: 12px;
+	color:  #044f53;
+    padding: 4px 14px;
+    background: transparent;
+    transition: 0.3s;
+    border: 1px solid #044f53;
+}
+
+
+/*chosen css*/
+
+.chosen-container-single  {
+    width: 140px!important;
+}
+
+.searchAleForm  {
+    float: right;
+    background: #044f53;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 3;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.searchAleForm:hover  {
+     background-color: #e1974e;
+     color: #000;
+     transition: 0.3s;
+}
+
+.searchAleForm i {
+
+    line-height: 3;
+}
+
+
+.bannerContent  h2{
+    margin-top: 10%;
+    font-size: 3vw;
+    text-shadow: 3px 2px 3px rgb(0 0 0 / 69%)
+}
+
+.bannerBtn {
+    color: #fff;
+    background: #044f53c7;
+    padding: 10px 20px;
+    margin-left: 33%;
+
+}
+
+.bannerBtn:hover {
+    color: #fff;
+    background: #044f53;;
+    padding: 10px 20px;
+    margin-left: 33%;
+    transition: 0.3s;
+}
+
+.bannerBtn2 {
+    color: #fff;
+    background: #e1974ec9;
+    padding: 10px 20px;
+    margin-left: 33%;
+    transition: 0.5s;
+    margin:auto;
+}
+
+.bannerBtn2:hover {
+    color: #000000 ;
+    background:#e1974e;
+    padding: 10px 20px;
+    margin-left: 33%;
+    transition: 0.5s;
+    margin:auto;
+}
+
+.bannerBtn3 {
+    color: #fff;
+    background:#00a1ff;
+    padding: 10px 20px;
+    margin-left: 33%;
+    transition: 0.5s;
+    margin-left: 27px;
+}
+
+.bannerBtn3:hover {
+    color: #ffffff ;
+    background: #00a1ffcc;
+    padding: 10px 20px;
+    margin-left: 33%;
+    transition: 0.5s;
+    margin-left: 27px;
+}
+
+
+/* ---- particles.js container ---- */
+
+.ale_home{
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/newbanner.jpg');
+  background-size: cover;
+
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 48%;
+  height: 500px;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalAle p {
+  margin-top:10px;
+  margin-left:10%;
+}
+
+.modalAle {
+    border: 1px solid #c7c7c7;
+    padding: 4px;
+
+}
+
+.AleClose {
+    opacity: unset;
+    z-index: 999;
+    margin-right: 6px;
+    color: #000000;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.AleClose:hover {
+    transition: 0.3s;
+    color: #000000;
+}
+.EmailTape  p{
+   font-size: 22px;
+    color: #000;
+    margin-bottom: 7px;
+}
+
+.EmailTape {
+    border-bottom: 1px solid #e6e6e6;
+    background: #ececec;
+    padding: 5px 17px 0px 12px;
+}
+.ModalSpace {
+      margin: 12px;
+}
+
+.ModalSpace label {
+  font-size: 14px;
+  color: #000;
+}
+
+.Residential_wp{
+ background-color: #000;
+
+}
+
+.Commercial_wp {
+  background-color: #000;
+
+}
+
+.padMY {
+      padding-top: 8%;
+}
+
+.Residential_wp {
+    padding: 10px 30px;
+    background: #e1974e;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.Residential_wp:hover {
+    padding: 10px 30px;
+    background:#e1974ed1;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+.Commercial_wp {
+    padding: 10px 30px;
+    background: #044f53;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.Commercial_wp:hover {
+    padding: 10px 30px;
+    background:#044f53c4;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.RsAle {
+  margin-top: 6%;
+}
+
+.Bannertext {
+  font-weight: 700;
+  font-size: 2.6em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 2px 1px 2px rgba(0,0,0,0.57);
+}
+
+.Bannertext .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+.AleVideo  {
+    background-image: url('../images/bg_4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    background-size: cover;
+    margin-left: 156px;
+    border: 1px solid #727272;
+    margin-right: 156px;
+}
+
+.VideoIcon a {
+      
+      color: #00a1ff;
+      transition: 0.4s;
+}
+
+.VideoIcon:hover a{
+      margin-top: 13%;
+      color:#f00;
+      margin-top: 13%;
+      transition: 0.4s;
+      cursor: pointer;
+}
+
+.VideoIcon {
+  margin-top: 13%;
+}
+
+
+.scale-down-center {
+  -webkit-animation: scale-down-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+   animation: scale-down-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+}
+
+
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+/*end*/
+
+.LookAle h3 {
+    color: #fff;
+    font-size: 15px;
+    background: #a6a6a6;
+    padding: 8px 13px;
+    border-radius: 10px;
+    font-weight: 400;
+    width: 20%;
+    margin:auto;
+  
+}
+
+
+.ModernCustom {
+    border: 1px solid #fff;
+    margin: auto;
+    padding-top: 18px;
+    border-radius: 100px;
+    background: #044f54;
+    width: 90px;
+    height: 90px;
+    color: #000;
+    transition: 0.5s;
+}
+
+.modernOuter:hover.ModernCustom {
+    margin: auto;
+    padding-top: 18px;
+    border-radius: 100px;
+    background: #fff!important;
+    width: 90px;
+    height: 90px;
+    color: #000;
+    transition: 0.5s;
+}
+
+.ModernCustom  img{
+   width: 46px;
+   filter: invert(1);
+}
+
+
+
+.modernOuter  {
+  border-radius: 10px;
+  background-color:#ffffff;
+  box-shadow: 0 2px 20px rgb(0 0 0 / 10%);
+   transition: transform 0.5s;
+}
+
+.modernOuter:hover  {
+  color: #ffffff;
+  background-image: linear-gradient(to right top, #044f54, #04676d, #048087, #0299a2, #00b4be);
+  box-shadow: 0 2px 20px rgb(0 0 0 / 5%);
+  transition: transform 0.5s;
+}
+
+
+.modernOuter {
+  padding: 26px;
+  color: #000;
+   transition: transform 0.5s;
+}
+
+.SaleBg {
+  background-image: url('../images/sale-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:500px;
+  margin-bottom: -54px;
+}
+
+.mobileRes img{ 
+
+    margin-top: 102px;
+    width: 62%;
+    bottom: 0;
+}
+
+.badge img {
+    width: 190px;
+
+}
+.born_ale {
+      margin-top: 18%;
+
+}
+
+.ale-filter  {
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.filterInner {
+  padding:10px;
+}
+
+.filterContainer {
+    background: #fff;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+
+.Neightactive {
+      padding: 16px;
+    background: #044f53!important;  
+}
+
+.AlePoptab {
+  margin: 10px;
+  padding: 0.8em 4em;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+
+.AlePoptab:hover {
+  background-color: #000;
+  transition: 0.3s;
+}
+}

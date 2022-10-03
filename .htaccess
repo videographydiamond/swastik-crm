@@ -1,0 +1,12 @@
+#RewriteEngine On
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+DirectoryIndex index.php
+RewriteEngine on
+ 
+RewriteCond $1 !^(index\.php|(.*)\.swf|forums|images|css|downloads|jquery|js|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./index.php?$1 [L,QSA]
+

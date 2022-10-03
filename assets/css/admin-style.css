@@ -1,0 +1,8 @@
+/* admin style Table text wrap */
+tbody td p.text-wrap{
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  

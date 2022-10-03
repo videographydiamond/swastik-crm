@@ -1,0 +1,65 @@
+/* admin style Table text wrap */
+tbody td p.text-wrap{
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  .adminLeftMenu li{
+  	cursor: pointer;
+    background: #009688;
+    color: #fff;
+    border-top-left-radius: 0px!important;
+    border-top-right-radius: 0px!important;
+  }
+  .adminLeftMenu li:hover{
+  	cursor: pointer;
+    background: #07dac6;
+    color:#333;
+  }
+  .adminLeftMenu li.active1{
+  	cursor: pointer;
+    background: #07dac6;
+    color:#333;
+  }
+  .mediaCloseBtn{
+    position: absolute;
+    z-index: 9999;
+    top: 9px;
+    right: 21px;
+    color: red;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  .mediaCloseBtn:hover{
+    color: red;
+    font-size: 40px;
+  }
+
+  .themeModal{
+    position: fixed;
+    z-index: 9999;
+    background: #2323236b;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    padding: 4% 7% 0px 7%;
+    overflow-y: auto!important;
+    opacity: 1;
+  }
+  .themeModalCon{
+    background: #fff;
+    padding: 20px 33px;
+    box-shadow: 0 0px 5px 1px #656565;
+  }
+  .themeModalBtnClose{
+   position: absolute;
+    right: 0px;
+    top: -23px;
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 99;
+  }
+  .themeModalBtnClose:hover{
+    color: red;
+  }
